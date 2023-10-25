@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', sans-serif;
+    box-sizing: border-box;
+  }
+ 
+  body{
+    background-color: rgb(27, 40, 7);
+   
+
+
+  }
+ 
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    color: rgb(239, 239, 178);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    /* opacity: 0.7; */
+  }
+ 
+  .container{
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(135deg,  #000000, #fff); */
+    padding: 10px
+   
+  }
+ 
+ 
+ 
+  .theater{
+    width: 100%;
+    max-width: 540px;
+    background: rgb(250, 250, 182);
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 40px 30px 30px 70px;
+    border-radius: 50px;
+  }
+ 
+  .theater h2{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+  }
+ 
+  img{
+    width: 500px;
+    height: 500px;
+
+
+  }
+ 
+  /* Style for film list items */
+  .film.item {
+    font-size: 22px;
+    color: rgb(250, 250, 182);
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 60px;
+
+
+  }
+ 
+  /* Style for film list items */
+.film.item {
+    transition: color 0.3s ease; /* Transition effect for color change */
+  }
+ 
+  /* Style for film list items on hover */
+  .film.item:hover {
+    text-decoration: underline;
+    color: rgba(192, 255, 4, 0.7); /* Faded color on hover */
+  }
+ 
+  .movie-container{
+    position: relative;
+    left:450px;
+    bottom : 450px;
+    color: beige;
+  }
