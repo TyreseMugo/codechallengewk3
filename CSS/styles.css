@@ -6,7 +6,7 @@
   }
  
   body{
-    background-color: rgb(27, 40, 7);
+    background-color: rgb(151, 208, 65);
    
 
 
@@ -88,5 +88,5 @@
     position: relative;
     left:450px;
     bottom : 450px;
-    color: beige;
+    color: beige ;
   }
